@@ -26,7 +26,7 @@ function initialCommercialOffer() {
     </div>
     <div class="welcome-text">Electrical installation</div>`;
     mainTitle.innerHTML =`Commercial`;
-    text1.innerHTML = `lectrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.`;
+    text1.innerHTML = `Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.`;
     text2.innerHTML = `In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.`;
     mainImgOffer.innerHTML = `<img src="images/commercial.png" alt="Commercial image" loading="lazy">`;
 }

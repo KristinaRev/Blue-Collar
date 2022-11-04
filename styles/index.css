@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+    z-index: 210;
     position: relative;
     height: 100px;
 }
@@ -353,7 +353,7 @@ button:hover {
     margin-right: 8%;
     padding: 5%;
     margin-top: -450px;
-    position: relative;
+    position: absolute;
     z-index: 2;
     background-color: #FFFFFF;
 }
@@ -365,4 +365,71 @@ button:hover {
 #offer-img {
     width: 416px;
     height: 416px;
+}
+
+.Services-section {
+    background-color: #F4F4F4;
+    padding-top: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.services-mini-title {
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.services-block {
+    background-color: #1C2752;
+    width: 22%;
+    padding: 2%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.services-block-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95%;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    margin-top: 20px;
+
+    color: #FFB342;
+}
+
+.services-block-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+    color: #D2D2D2;
+}
+
+.services-block-a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+
+    color: #FFFFFF;
+
+}
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

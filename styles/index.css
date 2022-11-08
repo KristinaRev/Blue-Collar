@@ -1,6 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+
+:root {
+    --main-color-orange: rgba(255, 179, 66, 1);
+    --main-color-dark: rgba(28, 39, 82, 1);
+    --main-color-white: rgba(255, 255, 255, 1);
+
+    }
+    
+    
+
+
 .container {
     padding-left: 8%;
     padding-right: 8%;
@@ -338,8 +349,8 @@ button:hover {
 }
 
 .offer-btn:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    background-color: var(--main-color-white);
+    border: 1px solid var(--main-color-white);
 }
 
 .marg-img {
@@ -355,7 +366,7 @@ button:hover {
     margin-top: -450px;
     position: absolute;
     z-index: 2;
-    background-color: #FFFFFF;
+    background-color: var(--main-color-white);
 }
 
 .read-more-btn {
@@ -378,7 +389,7 @@ button:hover {
 }
 
 .services-mini-title {
-    background-color: #FFFFFF;
+    background-color: var(--main-color-white);
     display: flex;
 }
 
@@ -400,7 +411,7 @@ button:hover {
     text-transform: capitalize;
     margin-top: 20px;
 
-    color: #FFB342;
+    color: var(--main-color-orange);
 }
 
 .services-block-text {
@@ -433,3 +444,140 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.reasons-rigt-part {
+    width: 50%;
+    padding: 4%;
+    background-image: url(../images/reason-background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reasons-left-part {
+    width: 50%;
+    padding: 4%;
+}
+
+.reasons-rigt-part-div {
+    background: rgba(28, 39, 82, 0.86);
+    display: flex;
+    flex-direction: column;
+    padding: 14% 11%;
+
+}
+
+.reasons-rigt-part-div-item {
+    border: 1px solid #F2F2F2;
+    margin: 2%;
+}
+
+.reasons-rigt-part-div-item__number {
+    background-color: var(--main-color-orange);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    color: var(--main-color-dark);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+
+}
+
+.reasons-rigt-part-div-item__text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 70%;
+    padding: 1%;
+}
+
+.reasons-left-part-item-text-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    padding: 0;
+    margin: 0;
+
+    color: var(--main-color-dark);
+}
+
+.reasons-left-part-item-check-mark {
+    margin-right: 10px;
+}
+
+.welcome-title_white {
+    color: var(--main-color-white);
+}
+
+.Recent-Projects {
+    background-color: var(--main-color-dark);
+    padding: 6% 1%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+
+.Recent-Projects-wrap-card {
+    background-color: var(--main-color-white);
+    padding: 1%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 477px;
+    
+}
+
+.Recent-Projects-wrap-card:hover {
+    height: 514px;
+    transition: 1s;
+}
+
+.Recent-Projects-wrap-card__photo {
+    height: 300px;
+    overflow: hidden;
+}
+
+.Recent-Projects-wrap-card__title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: var(--main-color-dark);
+}
+
+.Recent-Projects-wrap-card__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    text-align: center;
+    letter-spacing: 0.36px;
+
+    color: #7E7E7E;
+}
+
